@@ -27,6 +27,8 @@ jobs:
             echo "v${version} is already released"
             exit 0
           fi
-          gh release create "v${version}" --target "$GITHUB_SHA" --title "${version}" \
-            --notes "Hajin Route Planner ${version}. Download Hajin-Route-Planner-Setup-${version}.exe to install. Installed apps update themselves." \
+          # The notes show under "What's new" in the app.
+          if [ -f upload/release-notes.md ]; then notes=(--notes-file upload/release-notes.md)
+          else notes=(--notes "Hajin Route Planner ${version}."); fi
+          gh release create "v${version}" --target "$GITHUB_SHA" --title "${version}" "${notes[@]}" \
             "$exe" "$exe.blockmap" upload/latest.yml

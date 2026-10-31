@@ -5,5 +5,5 @@ Windows installers for Hajin Route Planner (MW4 DMZ). Download the newest
 check here and update themselves.
 
 To publish a version, replace the files in `upload/` with the new
-installer, its `.blockmap` and `latest.yml`, and push to `main`. The
+installer, its `.blockmap`, `latest.yml` and `release-notes.md`, and push to `main`. The
 Publish release workflow makes the GitHub release.
