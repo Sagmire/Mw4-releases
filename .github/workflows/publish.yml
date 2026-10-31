@@ -1,0 +1,32 @@
+name: Publish release
+
+# Turns the files in upload/ into a GitHub release. Installed apps read the
+# newest release (latest.yml plus the installer) and update themselves.
+on:
+  push:
+    branches: [main]
+    paths: ["upload/latest.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(sed -n 's/^version: *//p' upload/latest.yml)
+          exe="upload/Hajin-Route-Planner-Setup-${version}.exe"
+          test -f "$exe" || { echo "missing $exe"; exit 1; }
+          if gh release view "v${version}" >/dev/null 2>&1; then
+            echo "v${version} is already released"
+            exit 0
+          fi
+          gh release create "v${version}" --target "$GITHUB_SHA" --title "${version}" \
+            --notes "Hajin Route Planner ${version}. Download Hajin-Route-Planner-Setup-${version}.exe to install. Installed apps update themselves." \
+            "$exe" "$exe.blockmap" upload/latest.yml
