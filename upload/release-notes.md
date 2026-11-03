@@ -1,9 +1,11 @@
 ## What's new in this version
 
-- **Updates you can see.** When a new version is out, a notice at the top offers **See what's new**, then **Download update** and **Restart & update**. Nothing downloads without a click. (This starts with the *next* update after this one.)
-- **Check for updates** button in the top bar, next to the version number.
-- **Safe icons and accurate markers.** Every known safe has a safe icon, and the compound markers sit on the real compounds.
-- **Straight route lines** from stop to stop.
+- **A simpler layout.** Three tabs: 1 · Plan, 2 · Route and Map. Plan starts with "What are you going for?": Items, Key, Boss, Mission or Outposts.
+- **Settings** in the top right, to change how the app looks: Guided, Compact or Map focus layouts, dark, light or high-contrast colours, and larger text.
+- **Map focus** fills the window with the map, with the planner floating on top. **Hide planner** shows the whole map.
+- **How to use this** steps for keys, bosses, missions and outposts.
+- **Fixes:** Esc now closes the map popup, the route summary at the bottom no longer wraps awkwardly, and in Map focus a planned route is no longer hidden behind the planner.
+- Dynamic Op rewards updated to $10,000–$20,000 after the late-October patch.
 
 ## How to install
 
