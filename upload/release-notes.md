@@ -1,11 +1,8 @@
 ## What's new in this version
 
-- **A simpler layout.** Three tabs: 1 · Plan, 2 · Route and Map. Plan starts with "What are you going for?": Items, Key, Boss, Mission or Outposts.
-- **Settings** in the top right, to change how the app looks: Guided, Compact or Map focus layouts, dark, light or high-contrast colours, and larger text.
-- **Map focus** fills the window with the map, with the planner floating on top. **Hide planner** shows the whole map.
-- **How to use this** steps for keys, bosses, missions and outposts.
-- **Fixes:** Esc now closes the map popup, the route summary at the bottom no longer wraps awkwardly, and in Map focus a planned route is no longer hidden behind the planner.
-- Dynamic Op rewards updated to $10,000–$20,000 after the late-October patch.
+- **Season 1: the way into X01.** A new X01 category on the Plan tab. Tick **X01 (way in)** for a route to the freight elevator at the far northwest tip of Hajin (grid B0), with the steps to get in.
+- **X01 keys:** the Deep Vault Key (dropped by The Captain), the Executive Room Key, the Small Test Chamber Key, the X01 Vault DRC Locker Key and the Staff Emergency Exfil Keycard, with where each one is used.
+- **Season 1 changes:** the Supplied Drops trait now works on Dynamic Op crates (50% chance of an extra container), and the new Battle Tank Threat Briefing event is noted on the tank's drop.
 
 ## How to install
 
