@@ -1,9 +1,10 @@
 ## What's new in this version
 
-- **Pinpoint markers.** Zoom in and each marker turns into a pin: the icon lifts onto a stem and a dot marks the exact spot. Loot spots also have a centre point when zoomed out.
-- **Turn off single spots.** Press **Hide this spot** in a marker's popup, or untick spots in **Map → Spots on the map** (with search). Spots you turn off leave the map and your routes. **Turn all back on** brings them back.
-- **New: UAV and Lieutenant Hunt towers.** All 5 Lieutenant Hunt Towers and 5 of the 14 UAV Towers, placed from published map coordinates. Tick them on the Plan tab under Towers to route to one.
-- **More accurate markers.** Every marker was checked against the map. NuriGO Mall, Wolves Stadium, the Peak Array (Iskra), River Heights homes, the Songdo barber shop and the farmland storage tents now sit on their buildings, and three start or exfil points that were in the water are back on land.
+- **Easier to find your way around.** The planner now walks you through three steps: **1 Choose** what you're going for, **2 Pick** it, **3 Route**. Each step has a clear title and a **Back** button.
+- **Big, clear choices.** Step 1 is a card for each goal (Items, A key, A boss, A story mission, Outposts & safes) with what it does and how many there are. **Continue** brings back the run you were on.
+- **The next thing to press is always at the bottom:** See route, then Start run.
+- **The result comes first** on the Route step: distance, time and stops at the top, then your options.
+- **Map settings moved onto the map.** The new layers button under the zoom buttons opens marker types, Spots on the map, brightness and map editing.
 
 ## How to install
 
