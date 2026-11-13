@@ -1,22 +1,25 @@
-version: 1.11.0
+version: 1.13.0
 files:
-  - url: Hajin-Route-Planner-Setup-1.11.0.exe
-    sha512: GKET0ROGj/DYIpLENVG7cBFd7PE+AGMriAZE52j2qMhRyq2lyW2BL8wUlQ/mnpULAqpuP4yILVcK/palrYcpMQ==
-    size: 82852140
-path: Hajin-Route-Planner-Setup-1.11.0.exe
-sha512: GKET0ROGj/DYIpLENVG7cBFd7PE+AGMriAZE52j2qMhRyq2lyW2BL8wUlQ/mnpULAqpuP4yILVcK/palrYcpMQ==
+  - url: Hajin-Route-Planner-Setup-1.13.0.exe
+    sha512: qqrL62+BypPcaj7z7ayVSK4+skGZA+1GMByfLvmlZBRwmICy5M/RP3SpRWJrNaVf8+SdB9caVa0JzpHbbKkE5g==
+    size: 83251190
+path: Hajin-Route-Planner-Setup-1.13.0.exe
+sha512: qqrL62+BypPcaj7z7ayVSK4+skGZA+1GMByfLvmlZBRwmICy5M/RP3SpRWJrNaVf8+SdB9caVa0JzpHbbKkE5g==
 releaseNotes: |
   ## What's new in this version
 
-  - **Easier to find your way around.** The planner now walks you through three steps: **1 Choose** what you're going for, **2 Pick** it, **3 Route**. Each step has a clear title and a **Back** button.
-  - **Big, clear choices.** Step 1 is a card for each goal (Items, A key, A boss, A story mission, Outposts & safes) with what it does and how many there are. **Continue** brings back the run you were on.
-  - **The next thing to press is always at the bottom:** See route, then Start run.
-  - **The result comes first** on the Route step: distance, time and stops at the top, then your options.
-  - **Map settings moved onto the map.** The new layers button under the zoom buttons opens marker types, Spots on the map, brightness and map editing.
+  - **New: X01 maps.** Pick **X01 Floor 1** (Deep Vault) or **X01 Floor 2** (Cargo Bay) in the map picker at the top. Both show the game's Tac-Map with arrival points, exfil lifts and emergency shafts, the five bosses, keycard rooms, the 3D Printer and encoders, caches, lockers, stairs and mine traps. Plan a boss or key run inside X01 the same way as on Hajin.
+  - **A cleaner layout, like other interactive game maps.** The sidebar has two views: **Map** (everything by category, with Show all and Hide all, spot lists and one search) and **Plan a run** (Choose, Pick, Route).
+  - **Marker check against published map coordinates.** The Pyonghwa, Cheongun and Wolves Stadium police stations moved onto their real buildings, the Pyonghwa armory moved with its station, and the Wolves Stadium marker and area moved onto the stadium field.
+  - **New: Chemical Storage points.** Eight search points for Irradiated Containers, with a new Irradiated Container item (open it at the processing machine in Reactor 02).
+  - **Three more UAV Towers:** Imjin Farmland North, Imjin Farmland South and Songdo Wharf. The app now has 8 of the 14.
+  - **X01 details from the November patches:** the 20-minute gas timer, the exfil lifts, the bosses inside (The Captain, Wheelson, Knuckle and The Wrench), where each X01 key is used, and the new Wheelson's Remote Module.
+  - **UAV Towers:** since the November 2 patch, which towers are active is random each match, with about 40% fewer up. The tower's info now says so.
+  - **Clear all** on step 1 of Plan a run unticks everything and ends the current run (tap twice).
 
   ## How to install
 
   Already have the app? Click **Check for updates** in the top bar, or install the file below over your current version.
 
   New to the app? Download **Hajin-Route-Planner-Setup-*.exe** below and double-click it. If Windows says "Windows protected your PC", click **More info → Run anyway**.
-releaseDate: '2026-11-07T18:33:20.025Z'
+releaseDate: '2026-11-13T20:28:26.259Z'
