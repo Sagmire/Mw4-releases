@@ -1,13 +1,12 @@
 ## What's new in this version
 
-- **New: X01 maps.** Pick **X01 Floor 1** (Deep Vault) or **X01 Floor 2** (Cargo Bay) in the map picker at the top. Both show the game's Tac-Map with arrival points, exfil lifts and emergency shafts, the five bosses, keycard rooms, the 3D Printer and encoders, caches, lockers, stairs and mine traps. Plan a boss or key run inside X01 the same way as on Hajin.
-- **A cleaner layout, like other interactive game maps.** The sidebar has two views: **Map** (everything by category, with Show all and Hide all, spot lists and one search) and **Plan a run** (Choose, Pick, Route).
-- **Marker check against published map coordinates.** The Pyonghwa, Cheongun and Wolves Stadium police stations moved onto their real buildings, the Pyonghwa armory moved with its station, and the Wolves Stadium marker and area moved onto the stadium field.
-- **New: Chemical Storage points.** Eight search points for Irradiated Containers, with a new Irradiated Container item (open it at the processing machine in Reactor 02).
-- **Three more UAV Towers:** Imjin Farmland North, Imjin Farmland South and Songdo Wharf. The app now has 8 of the 14.
-- **X01 details from the November patches:** the 20-minute gas timer, the exfil lifts, the bosses inside (The Captain, Wheelson, Knuckle and The Wrench), where each X01 key is used, and the new Wheelson's Remote Module.
-- **UAV Towers:** since the November 2 patch, which towers are active is random each match, with about 40% fewer up. The tower's info now says so.
-- **Clear all** on step 1 of Plan a run unticks everything and ends the current run (tap twice).
+- **New: Find.** A third view next to Map and Plan a run, with an item finder and a key map.
+- **Item finder.** Pick any item to light up every place it spawns, with the list of spots underneath. Click a spot to jump to it, or press Add to run.
+- **Key map.** Pick a key to see its door and where the key comes from, with the steps to get in. **Show every key door** lights up all 55 locked rooms at once.
+- **Loot table.** Every item and key in one table with where to find it. Filter it, sort it by any column, and click a place to see it on the map.
+- **Much more on the map.** All 14 UAV Towers, 22 exfil sites, 18 safes, 28 ammo and armor caches, Lost Supply Drop spots, crashed drones, SAM sites, the Battle Tank's four routes, Hanex Bank vaults, gas stations, fire stations and clinics. The busier layers start hidden: turn them on in the Map list.
+- **62 keys** (was 29), with 30 more key doors placed on the map.
+- **More exact positions** for the strongholds, exfils and safes, from dmzmap.com's Hajin map.
 
 ## How to install
 
